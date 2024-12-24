@@ -30,3 +30,38 @@ This dashboard provides robust data analysis capabilities, including:
 - **Automated Data Cleaning**: Basic data cleaning options to improve data quality.
 - **Interactive Visualizations**: Create dynamic charts and graphs.
 - **Basic Machine Learning Capabilities**: Implement simple models for prediction.
+
+---
+
+## ⚙️ Installation
+
+To run this app locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DinIskakov/Data-Analysis-Dashboard.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Data-Analysis-Dashboard
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## Requirements
+### Key Dependencies
+- `streamlit`
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `openpyxl` 
